@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script src="https://rawgit.com/abodelot/jquery.json-viewer/master/json-viewer/jquery.json-viewer.js"></script>
+<link href="https://rawgit.com/abodelot/jquery.json-viewer/master/json-viewer/jquery.json-viewer.css" rel="stylesheet"/>
+<pre id="json-renderer"></pre>
+
+<script>
+var data = {
+  "data": "value",
+  "data2": {
+    "mounir": "mounir",
+    "mounir2": {
+      "city": "bRIMOs",
+      "data3": "value3"
+    }
+  }
+}
+
+$(function(){
+  $('#json-renderer').jsonViewer(data);
+});
+</script>
+
+</body>
+</html>
