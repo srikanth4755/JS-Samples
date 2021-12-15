@@ -196,6 +196,8 @@ Route
  insert into IndexPivot_POAuth values ({@DocID}, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', '', '', NULL, '', '', '', '', '', '', '', '', '123456', 'Sep  4 2018  8:38PM')
 insert into Document (folderID, DocumentName, CreateDate, FileType) 
 									 values (2236 , '16944.pdf', 'Sep  4 2018  8:38PM', 'pdf')
+									 
+									 for test
 
 (1 row(s) affected)
 
